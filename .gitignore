@@ -1,0 +1,23 @@
+# Hive / Derby runtime
+metastore_db/
+derby.log
+warehouse/
+spark-warehouse/
+tmp/
+*.log
+
+# Streaming output (regenerated at runtime)
+data/streaming/*
+!data/streaming/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*:Zone.Identifier
+.vscode/
+.idea/

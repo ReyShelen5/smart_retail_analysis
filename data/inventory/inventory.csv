@@ -1,0 +1,301 @@
+product_id,product_name,category,store_id,current_stock,reorder_level,max_stock,unit_cost,last_restock_date,supplier
+P001,Basmati Rice 5kg,Groceries,S01,3,5,20,534.69,2026-06-24,FreshFarm Distributors
+P002,Toor Dal 1kg,Groceries,S01,14,5,20,136.98,2026-06-29,FreshFarm Distributors
+P003,Sunflower Oil 1L,Groceries,S01,220,154,616,146.55,2026-06-18,FreshFarm Distributors
+P004,Wheat Atta 5kg,Groceries,S01,100,138,552,240.78,2026-06-14,FreshFarm Distributors
+P005,Sugar 1kg,Groceries,S01,23,17,68,42.75,2026-06-10,FreshFarm Distributors
+P006,Tea Powder 500g,Groceries,S01,84,27,108,208.63,2026-06-30,FreshFarm Distributors
+P007,Coffee Powder 200g,Groceries,S01,36,58,232,263.64,2026-06-03,FreshFarm Distributors
+P008,Milk 1L,Groceries,S01,163,44,176,50.93,2026-06-10,FreshFarm Distributors
+P009,Bread 400g,Groceries,S01,19,25,100,39.92,2026-06-07,FreshFarm Distributors
+P010,Eggs 12 Pack,Groceries,S01,4,40,160,71.82,2026-06-26,FreshFarm Distributors
+P011,Salt 1kg,Groceries,S01,20,5,20,24.16,2026-06-17,FreshFarm Distributors
+P012,Biscuits Pack,Groceries,S01,95,30,120,32.29,2026-06-09,FreshFarm Distributors
+P013,Instant Noodles 4 Pack,Groceries,S01,18,14,56,46.79,2026-06-23,FreshFarm Distributors
+P014,Paneer 200g,Groceries,S01,34,14,56,73.6,2026-06-01,FreshFarm Distributors
+P015,Ghee 500ml,Groceries,S01,17,6,24,273.81,2026-06-04,FreshFarm Distributors
+P016,Smartphone,Electronics,S01,19,5,20,14101.03,2026-06-18,TechWorld Supplies
+P017,Bluetooth Earbuds,Electronics,S01,6,5,20,1650.62,2026-06-09,TechWorld Supplies
+P018,Power Bank 10000mAh,Electronics,S01,17,5,20,1180.99,2026-06-07,TechWorld Supplies
+P019,LED TV 32 inch,Electronics,S01,6,5,20,10909.46,2026-06-30,TechWorld Supplies
+P020,Laptop,Electronics,S01,19,5,20,43067.89,2026-06-08,TechWorld Supplies
+P021,USB-C Charger,Electronics,S01,14,5,20,632.11,2026-06-17,TechWorld Supplies
+P022,Smartwatch,Electronics,S01,4,5,20,2578.33,2026-06-16,TechWorld Supplies
+P023,Wireless Mouse,Electronics,S01,30,8,32,452.23,2026-06-01,TechWorld Supplies
+P024,Keyboard,Electronics,S01,12,5,20,690.58,2026-06-06,TechWorld Supplies
+P025,Bluetooth Speaker,Electronics,S01,12,7,28,1968.4,2026-06-12,TechWorld Supplies
+P026,LED Bulb 9W,Electronics,S01,31,13,52,106.43,2026-06-15,TechWorld Supplies
+P027,Extension Board,Electronics,S01,22,18,72,378.3,2026-06-21,TechWorld Supplies
+P028,Electric Kettle,Electronics,S01,14,7,28,1094.15,2026-06-11,TechWorld Supplies
+P029,Mixer Grinder,Electronics,S01,21,8,32,2948.55,2026-06-29,TechWorld Supplies
+P030,Hair Dryer,Electronics,S01,4,7,28,883.47,2026-06-06,TechWorld Supplies
+P031,Cotton T-Shirt,Clothing,S01,23,6,24,274.97,2026-06-16,StyleThread Apparel
+P032,Denim Jeans,Clothing,S01,6,5,20,759.24,2026-06-21,StyleThread Apparel
+P033,Formal Shirt,Clothing,S01,14,5,20,761.17,2026-06-15,StyleThread Apparel
+P034,Kurta,Clothing,S01,22,8,32,625.28,2026-06-09,StyleThread Apparel
+P035,Saree,Clothing,S01,100,63,252,1514.62,2026-06-25,StyleThread Apparel
+P036,Track Pants,Clothing,S01,14,5,20,529.02,2026-06-12,StyleThread Apparel
+P037,Hoodie,Clothing,S01,41,11,44,875.55,2026-06-17,StyleThread Apparel
+P038,Socks 3 Pack,Clothing,S01,5,19,76,150.61,2026-06-01,StyleThread Apparel
+P039,Leggings,Clothing,S01,20,5,20,261.19,2026-06-25,StyleThread Apparel
+P040,Jacket,Clothing,S01,13,5,20,1244.72,2026-06-06,StyleThread Apparel
+P041,Shorts,Clothing,S01,7,15,60,366.93,2026-06-11,StyleThread Apparel
+P042,Kids T-Shirt,Clothing,S01,0,5,20,186.18,2026-06-16,StyleThread Apparel
+P043,Dupatta,Clothing,S01,39,13,52,251.42,2026-06-08,StyleThread Apparel
+P044,Polo T-Shirt,Clothing,S01,1,5,20,445.63,2026-06-16,StyleThread Apparel
+P045,Night Suit,Clothing,S01,15,5,20,479.66,2026-06-18,StyleThread Apparel
+P046,Detergent Powder 1kg,Household,S01,9,5,20,149.44,2026-06-05,HomeEssentials Traders
+P047,Dishwash Liquid 500ml,Household,S01,51,55,220,81.61,2026-06-20,HomeEssentials Traders
+P048,Floor Cleaner 1L,Household,S01,20,5,20,136.22,2026-06-30,HomeEssentials Traders
+P049,Toilet Cleaner 500ml,Household,S01,26,16,64,66.27,2026-06-06,HomeEssentials Traders
+P050,Bath Soap 4 Pack,Household,S01,5,5,20,124.65,2026-06-29,HomeEssentials Traders
+P051,Shampoo 340ml,Household,S01,16,5,20,215.6,2026-06-25,HomeEssentials Traders
+P052,Toothpaste 150g,Household,S01,16,7,28,87.88,2026-06-04,HomeEssentials Traders
+P053,Mop Set,Household,S01,30,9,36,476.69,2026-06-13,HomeEssentials Traders
+P054,Bucket 20L,Household,S01,1,16,64,174.37,2026-06-05,HomeEssentials Traders
+P055,Storage Container Set,Household,S01,0,38,152,415.84,2026-06-29,HomeEssentials Traders
+P056,Bedsheet,Household,S01,31,73,292,613.92,2026-06-30,HomeEssentials Traders
+P057,Towel,Household,S01,18,6,24,255.18,2026-06-08,HomeEssentials Traders
+P058,Pressure Cooker 3L,Household,S01,18,5,20,1142.79,2026-06-24,HomeEssentials Traders
+P059,Non-stick Pan,Household,S01,15,10,40,700.35,2026-06-05,HomeEssentials Traders
+P060,Garbage Bags,Household,S01,16,5,20,93.94,2026-06-12,HomeEssentials Traders
+P001,Basmati Rice 5kg,Groceries,S02,13,5,20,534.69,2026-06-03,FreshFarm Distributors
+P002,Toor Dal 1kg,Groceries,S02,16,5,20,136.98,2026-06-12,FreshFarm Distributors
+P003,Sunflower Oil 1L,Groceries,S02,26,139,556,146.55,2026-06-13,FreshFarm Distributors
+P004,Wheat Atta 5kg,Groceries,S02,392,131,524,240.78,2026-06-18,FreshFarm Distributors
+P005,Sugar 1kg,Groceries,S02,41,17,68,42.75,2026-06-19,FreshFarm Distributors
+P006,Tea Powder 500g,Groceries,S02,26,24,96,208.63,2026-06-21,FreshFarm Distributors
+P007,Coffee Powder 200g,Groceries,S02,29,56,224,263.64,2026-06-08,FreshFarm Distributors
+P008,Milk 1L,Groceries,S02,97,42,168,50.93,2026-06-10,FreshFarm Distributors
+P009,Bread 400g,Groceries,S02,16,22,88,39.92,2026-06-29,FreshFarm Distributors
+P010,Eggs 12 Pack,Groceries,S02,73,30,120,71.82,2026-06-24,FreshFarm Distributors
+P011,Salt 1kg,Groceries,S02,19,5,20,24.16,2026-06-27,FreshFarm Distributors
+P012,Biscuits Pack,Groceries,S02,77,22,88,32.29,2026-06-17,FreshFarm Distributors
+P013,Instant Noodles 4 Pack,Groceries,S02,16,11,44,46.79,2026-06-05,FreshFarm Distributors
+P014,Paneer 200g,Groceries,S02,10,12,48,73.6,2026-06-11,FreshFarm Distributors
+P015,Ghee 500ml,Groceries,S02,20,5,20,273.81,2026-06-15,FreshFarm Distributors
+P016,Smartphone,Electronics,S02,3,5,20,14101.03,2026-06-27,TechWorld Supplies
+P017,Bluetooth Earbuds,Electronics,S02,15,5,20,1650.62,2026-06-20,TechWorld Supplies
+P018,Power Bank 10000mAh,Electronics,S02,4,5,20,1180.99,2026-06-08,TechWorld Supplies
+P019,LED TV 32 inch,Electronics,S02,15,5,20,10909.46,2026-06-10,TechWorld Supplies
+P020,Laptop,Electronics,S02,13,5,20,43067.89,2026-06-19,TechWorld Supplies
+P021,USB-C Charger,Electronics,S02,8,6,24,632.11,2026-06-04,TechWorld Supplies
+P022,Smartwatch,Electronics,S02,19,5,20,2578.33,2026-06-21,TechWorld Supplies
+P023,Wireless Mouse,Electronics,S02,26,7,28,452.23,2026-06-14,TechWorld Supplies
+P024,Keyboard,Electronics,S02,14,5,20,690.58,2026-06-20,TechWorld Supplies
+P025,Bluetooth Speaker,Electronics,S02,1,6,24,1968.4,2026-06-25,TechWorld Supplies
+P026,LED Bulb 9W,Electronics,S02,48,12,48,106.43,2026-06-29,TechWorld Supplies
+P027,Extension Board,Electronics,S02,14,16,64,378.3,2026-06-04,TechWorld Supplies
+P028,Electric Kettle,Electronics,S02,16,5,20,1094.15,2026-06-16,TechWorld Supplies
+P029,Mixer Grinder,Electronics,S02,15,5,20,2948.55,2026-06-10,TechWorld Supplies
+P030,Hair Dryer,Electronics,S02,18,7,28,883.47,2026-06-14,TechWorld Supplies
+P031,Cotton T-Shirt,Clothing,S02,20,6,24,274.97,2026-06-09,StyleThread Apparel
+P032,Denim Jeans,Clothing,S02,6,5,20,759.24,2026-06-03,StyleThread Apparel
+P033,Formal Shirt,Clothing,S02,0,5,20,761.17,2026-06-03,StyleThread Apparel
+P034,Kurta,Clothing,S02,18,6,24,625.28,2026-06-18,StyleThread Apparel
+P035,Saree,Clothing,S02,217,60,240,1514.62,2026-06-11,StyleThread Apparel
+P036,Track Pants,Clothing,S02,16,5,20,529.02,2026-06-27,StyleThread Apparel
+P037,Hoodie,Clothing,S02,5,9,36,875.55,2026-06-29,StyleThread Apparel
+P038,Socks 3 Pack,Clothing,S02,5,18,72,150.61,2026-06-02,StyleThread Apparel
+P039,Leggings,Clothing,S02,11,5,20,261.19,2026-06-10,StyleThread Apparel
+P040,Jacket,Clothing,S02,5,5,20,1244.72,2026-06-02,StyleThread Apparel
+P041,Shorts,Clothing,S02,3,13,52,366.93,2026-06-25,StyleThread Apparel
+P042,Kids T-Shirt,Clothing,S02,2,5,20,186.18,2026-06-29,StyleThread Apparel
+P043,Dupatta,Clothing,S02,14,14,56,251.42,2026-06-19,StyleThread Apparel
+P044,Polo T-Shirt,Clothing,S02,0,5,20,445.63,2026-06-26,StyleThread Apparel
+P045,Night Suit,Clothing,S02,1,5,20,479.66,2026-06-15,StyleThread Apparel
+P046,Detergent Powder 1kg,Household,S02,1,5,20,149.44,2026-06-17,HomeEssentials Traders
+P047,Dishwash Liquid 500ml,Household,S02,85,48,192,81.61,2026-06-14,HomeEssentials Traders
+P048,Floor Cleaner 1L,Household,S02,13,5,20,136.22,2026-06-05,HomeEssentials Traders
+P049,Toilet Cleaner 500ml,Household,S02,26,15,60,66.27,2026-06-02,HomeEssentials Traders
+P050,Bath Soap 4 Pack,Household,S02,10,5,20,124.65,2026-06-27,HomeEssentials Traders
+P051,Shampoo 340ml,Household,S02,3,5,20,215.6,2026-06-17,HomeEssentials Traders
+P052,Toothpaste 150g,Household,S02,18,5,20,87.88,2026-06-18,HomeEssentials Traders
+P053,Mop Set,Household,S02,19,8,32,476.69,2026-06-23,HomeEssentials Traders
+P054,Bucket 20L,Household,S02,34,14,56,174.37,2026-06-08,HomeEssentials Traders
+P055,Storage Container Set,Household,S02,22,34,136,415.84,2026-06-28,HomeEssentials Traders
+P056,Bedsheet,Household,S02,215,70,280,613.92,2026-06-07,HomeEssentials Traders
+P057,Towel,Household,S02,18,5,20,255.18,2026-06-07,HomeEssentials Traders
+P058,Pressure Cooker 3L,Household,S02,16,5,20,1142.79,2026-06-18,HomeEssentials Traders
+P059,Non-stick Pan,Household,S02,26,9,36,700.35,2026-06-30,HomeEssentials Traders
+P060,Garbage Bags,Household,S02,14,5,20,93.94,2026-06-18,HomeEssentials Traders
+P001,Basmati Rice 5kg,Groceries,S03,11,5,20,534.69,2026-06-23,FreshFarm Distributors
+P002,Toor Dal 1kg,Groceries,S03,17,5,20,136.98,2026-06-23,FreshFarm Distributors
+P003,Sunflower Oil 1L,Groceries,S03,377,121,484,146.55,2026-06-28,FreshFarm Distributors
+P004,Wheat Atta 5kg,Groceries,S03,254,117,468,240.78,2026-06-30,FreshFarm Distributors
+P005,Sugar 1kg,Groceries,S03,27,13,52,42.75,2026-06-10,FreshFarm Distributors
+P006,Tea Powder 500g,Groceries,S03,12,19,76,208.63,2026-06-08,FreshFarm Distributors
+P007,Coffee Powder 200g,Groceries,S03,42,49,196,263.64,2026-06-30,FreshFarm Distributors
+P008,Milk 1L,Groceries,S03,128,35,140,50.93,2026-06-14,FreshFarm Distributors
+P009,Bread 400g,Groceries,S03,58,19,76,39.92,2026-06-10,FreshFarm Distributors
+P010,Eggs 12 Pack,Groceries,S03,23,30,120,71.82,2026-06-14,FreshFarm Distributors
+P011,Salt 1kg,Groceries,S03,1,5,20,24.16,2026-06-10,FreshFarm Distributors
+P012,Biscuits Pack,Groceries,S03,5,21,84,32.29,2026-06-11,FreshFarm Distributors
+P013,Instant Noodles 4 Pack,Groceries,S03,14,11,44,46.79,2026-06-17,FreshFarm Distributors
+P014,Paneer 200g,Groceries,S03,15,13,52,73.6,2026-06-20,FreshFarm Distributors
+P015,Ghee 500ml,Groceries,S03,18,5,20,273.81,2026-06-02,FreshFarm Distributors
+P016,Smartphone,Electronics,S03,20,5,20,14101.03,2026-06-29,TechWorld Supplies
+P017,Bluetooth Earbuds,Electronics,S03,7,5,20,1650.62,2026-06-16,TechWorld Supplies
+P018,Power Bank 10000mAh,Electronics,S03,11,5,20,1180.99,2026-06-06,TechWorld Supplies
+P019,LED TV 32 inch,Electronics,S03,14,5,20,10909.46,2026-06-11,TechWorld Supplies
+P020,Laptop,Electronics,S03,8,5,20,43067.89,2026-06-20,TechWorld Supplies
+P021,USB-C Charger,Electronics,S03,3,5,20,632.11,2026-06-04,TechWorld Supplies
+P022,Smartwatch,Electronics,S03,16,5,20,2578.33,2026-06-03,TechWorld Supplies
+P023,Wireless Mouse,Electronics,S03,28,7,28,452.23,2026-06-19,TechWorld Supplies
+P024,Keyboard,Electronics,S03,17,5,20,690.58,2026-06-09,TechWorld Supplies
+P025,Bluetooth Speaker,Electronics,S03,8,5,20,1968.4,2026-06-09,TechWorld Supplies
+P026,LED Bulb 9W,Electronics,S03,42,12,48,106.43,2026-06-15,TechWorld Supplies
+P027,Extension Board,Electronics,S03,29,15,60,378.3,2026-06-11,TechWorld Supplies
+P028,Electric Kettle,Electronics,S03,4,5,20,1094.15,2026-06-04,TechWorld Supplies
+P029,Mixer Grinder,Electronics,S03,1,6,24,2948.55,2026-06-10,TechWorld Supplies
+P030,Hair Dryer,Electronics,S03,15,6,24,883.47,2026-06-04,TechWorld Supplies
+P031,Cotton T-Shirt,Clothing,S03,6,5,20,274.97,2026-06-29,StyleThread Apparel
+P032,Denim Jeans,Clothing,S03,3,5,20,759.24,2026-06-08,StyleThread Apparel
+P033,Formal Shirt,Clothing,S03,2,5,20,761.17,2026-06-02,StyleThread Apparel
+P034,Kurta,Clothing,S03,5,6,24,625.28,2026-06-01,StyleThread Apparel
+P035,Saree,Clothing,S03,156,54,216,1514.62,2026-06-20,StyleThread Apparel
+P036,Track Pants,Clothing,S03,14,5,20,529.02,2026-06-12,StyleThread Apparel
+P037,Hoodie,Clothing,S03,2,10,40,875.55,2026-06-09,StyleThread Apparel
+P038,Socks 3 Pack,Clothing,S03,26,15,60,150.61,2026-06-26,StyleThread Apparel
+P039,Leggings,Clothing,S03,16,5,20,261.19,2026-06-17,StyleThread Apparel
+P040,Jacket,Clothing,S03,14,5,20,1244.72,2026-06-14,StyleThread Apparel
+P041,Shorts,Clothing,S03,15,11,44,366.93,2026-06-18,StyleThread Apparel
+P042,Kids T-Shirt,Clothing,S03,17,5,20,186.18,2026-06-30,StyleThread Apparel
+P043,Dupatta,Clothing,S03,44,12,48,251.42,2026-06-16,StyleThread Apparel
+P044,Polo T-Shirt,Clothing,S03,19,5,20,445.63,2026-06-28,StyleThread Apparel
+P045,Night Suit,Clothing,S03,4,5,20,479.66,2026-06-05,StyleThread Apparel
+P046,Detergent Powder 1kg,Household,S03,6,5,20,149.44,2026-06-03,HomeEssentials Traders
+P047,Dishwash Liquid 500ml,Household,S03,107,41,164,81.61,2026-06-17,HomeEssentials Traders
+P048,Floor Cleaner 1L,Household,S03,19,5,20,136.22,2026-06-19,HomeEssentials Traders
+P049,Toilet Cleaner 500ml,Household,S03,7,14,56,66.27,2026-06-03,HomeEssentials Traders
+P050,Bath Soap 4 Pack,Household,S03,6,5,20,124.65,2026-06-26,HomeEssentials Traders
+P051,Shampoo 340ml,Household,S03,12,5,20,215.6,2026-06-18,HomeEssentials Traders
+P052,Toothpaste 150g,Household,S03,19,5,20,87.88,2026-06-14,HomeEssentials Traders
+P053,Mop Set,Household,S03,24,8,32,476.69,2026-06-22,HomeEssentials Traders
+P054,Bucket 20L,Household,S03,20,12,48,174.37,2026-06-21,HomeEssentials Traders
+P055,Storage Container Set,Household,S03,71,35,140,415.84,2026-06-12,HomeEssentials Traders
+P056,Bedsheet,Household,S03,128,64,256,613.92,2026-06-29,HomeEssentials Traders
+P057,Towel,Household,S03,10,5,20,255.18,2026-06-17,HomeEssentials Traders
+P058,Pressure Cooker 3L,Household,S03,19,5,20,1142.79,2026-06-19,HomeEssentials Traders
+P059,Non-stick Pan,Household,S03,19,8,32,700.35,2026-06-01,HomeEssentials Traders
+P060,Garbage Bags,Household,S03,8,5,20,93.94,2026-06-14,HomeEssentials Traders
+P001,Basmati Rice 5kg,Groceries,S04,8,5,20,534.69,2026-06-01,FreshFarm Distributors
+P002,Toor Dal 1kg,Groceries,S04,14,5,20,136.98,2026-06-24,FreshFarm Distributors
+P003,Sunflower Oil 1L,Groceries,S04,386,115,460,146.55,2026-06-30,FreshFarm Distributors
+P004,Wheat Atta 5kg,Groceries,S04,327,97,388,240.78,2026-06-28,FreshFarm Distributors
+P005,Sugar 1kg,Groceries,S04,2,16,64,42.75,2026-06-27,FreshFarm Distributors
+P006,Tea Powder 500g,Groceries,S04,79,20,80,208.63,2026-06-02,FreshFarm Distributors
+P007,Coffee Powder 200g,Groceries,S04,170,44,176,263.64,2026-06-19,FreshFarm Distributors
+P008,Milk 1L,Groceries,S04,37,36,144,50.93,2026-06-09,FreshFarm Distributors
+P009,Bread 400g,Groceries,S04,52,19,76,39.92,2026-06-09,FreshFarm Distributors
+P010,Eggs 12 Pack,Groceries,S04,56,27,108,71.82,2026-06-17,FreshFarm Distributors
+P011,Salt 1kg,Groceries,S04,15,5,20,24.16,2026-06-29,FreshFarm Distributors
+P012,Biscuits Pack,Groceries,S04,45,19,76,32.29,2026-06-20,FreshFarm Distributors
+P013,Instant Noodles 4 Pack,Groceries,S04,29,11,44,46.79,2026-06-15,FreshFarm Distributors
+P014,Paneer 200g,Groceries,S04,16,11,44,73.6,2026-06-16,FreshFarm Distributors
+P015,Ghee 500ml,Groceries,S04,9,5,20,273.81,2026-06-04,FreshFarm Distributors
+P016,Smartphone,Electronics,S04,8,5,20,14101.03,2026-06-28,TechWorld Supplies
+P017,Bluetooth Earbuds,Electronics,S04,11,5,20,1650.62,2026-06-04,TechWorld Supplies
+P018,Power Bank 10000mAh,Electronics,S04,3,5,20,1180.99,2026-06-18,TechWorld Supplies
+P019,LED TV 32 inch,Electronics,S04,9,5,20,10909.46,2026-06-12,TechWorld Supplies
+P020,Laptop,Electronics,S04,1,5,20,43067.89,2026-06-26,TechWorld Supplies
+P021,USB-C Charger,Electronics,S04,17,5,20,632.11,2026-06-26,TechWorld Supplies
+P022,Smartwatch,Electronics,S04,8,5,20,2578.33,2026-06-11,TechWorld Supplies
+P023,Wireless Mouse,Electronics,S04,11,8,32,452.23,2026-06-29,TechWorld Supplies
+P024,Keyboard,Electronics,S04,10,5,20,690.58,2026-06-15,TechWorld Supplies
+P025,Bluetooth Speaker,Electronics,S04,9,5,20,1968.4,2026-06-27,TechWorld Supplies
+P026,LED Bulb 9W,Electronics,S04,23,10,40,106.43,2026-06-06,TechWorld Supplies
+P027,Extension Board,Electronics,S04,35,13,52,378.3,2026-06-11,TechWorld Supplies
+P028,Electric Kettle,Electronics,S04,12,6,24,1094.15,2026-06-18,TechWorld Supplies
+P029,Mixer Grinder,Electronics,S04,4,6,24,2948.55,2026-06-01,TechWorld Supplies
+P030,Hair Dryer,Electronics,S04,8,5,20,883.47,2026-06-28,TechWorld Supplies
+P031,Cotton T-Shirt,Clothing,S04,0,6,24,274.97,2026-06-18,StyleThread Apparel
+P032,Denim Jeans,Clothing,S04,4,5,20,759.24,2026-06-19,StyleThread Apparel
+P033,Formal Shirt,Clothing,S04,10,5,20,761.17,2026-06-04,StyleThread Apparel
+P034,Kurta,Clothing,S04,19,6,24,625.28,2026-06-29,StyleThread Apparel
+P035,Saree,Clothing,S04,146,48,192,1514.62,2026-06-26,StyleThread Apparel
+P036,Track Pants,Clothing,S04,20,5,20,529.02,2026-06-28,StyleThread Apparel
+P037,Hoodie,Clothing,S04,6,10,40,875.55,2026-06-04,StyleThread Apparel
+P038,Socks 3 Pack,Clothing,S04,33,14,56,150.61,2026-06-08,StyleThread Apparel
+P039,Leggings,Clothing,S04,13,5,20,261.19,2026-06-12,StyleThread Apparel
+P040,Jacket,Clothing,S04,8,5,20,1244.72,2026-06-14,StyleThread Apparel
+P041,Shorts,Clothing,S04,19,11,44,366.93,2026-06-18,StyleThread Apparel
+P042,Kids T-Shirt,Clothing,S04,6,5,20,186.18,2026-06-27,StyleThread Apparel
+P043,Dupatta,Clothing,S04,8,12,48,251.42,2026-06-11,StyleThread Apparel
+P044,Polo T-Shirt,Clothing,S04,17,5,20,445.63,2026-06-01,StyleThread Apparel
+P045,Night Suit,Clothing,S04,5,5,20,479.66,2026-06-20,StyleThread Apparel
+P046,Detergent Powder 1kg,Household,S04,2,5,20,149.44,2026-06-03,HomeEssentials Traders
+P047,Dishwash Liquid 500ml,Household,S04,65,40,160,81.61,2026-06-30,HomeEssentials Traders
+P048,Floor Cleaner 1L,Household,S04,3,5,20,136.22,2026-06-27,HomeEssentials Traders
+P049,Toilet Cleaner 500ml,Household,S04,11,12,48,66.27,2026-06-07,HomeEssentials Traders
+P050,Bath Soap 4 Pack,Household,S04,2,5,20,124.65,2026-06-03,HomeEssentials Traders
+P051,Shampoo 340ml,Household,S04,14,5,20,215.6,2026-06-22,HomeEssentials Traders
+P052,Toothpaste 150g,Household,S04,4,5,20,87.88,2026-06-15,HomeEssentials Traders
+P053,Mop Set,Household,S04,7,8,32,476.69,2026-06-16,HomeEssentials Traders
+P054,Bucket 20L,Household,S04,48,13,52,174.37,2026-06-16,HomeEssentials Traders
+P055,Storage Container Set,Household,S04,75,30,120,415.84,2026-06-19,HomeEssentials Traders
+P056,Bedsheet,Household,S04,140,64,256,613.92,2026-06-17,HomeEssentials Traders
+P057,Towel,Household,S04,3,5,20,255.18,2026-06-28,HomeEssentials Traders
+P058,Pressure Cooker 3L,Household,S04,17,5,20,1142.79,2026-06-06,HomeEssentials Traders
+P059,Non-stick Pan,Household,S04,4,7,28,700.35,2026-06-25,HomeEssentials Traders
+P060,Garbage Bags,Household,S04,13,5,20,93.94,2026-06-23,HomeEssentials Traders
+P001,Basmati Rice 5kg,Groceries,S05,5,5,20,534.69,2026-06-10,FreshFarm Distributors
+P002,Toor Dal 1kg,Groceries,S05,3,5,20,136.98,2026-06-10,FreshFarm Distributors
+P003,Sunflower Oil 1L,Groceries,S05,369,97,388,146.55,2026-06-04,FreshFarm Distributors
+P004,Wheat Atta 5kg,Groceries,S05,247,87,348,240.78,2026-06-04,FreshFarm Distributors
+P005,Sugar 1kg,Groceries,S05,18,11,44,42.75,2026-06-06,FreshFarm Distributors
+P006,Tea Powder 500g,Groceries,S05,30,16,64,208.63,2026-06-27,FreshFarm Distributors
+P007,Coffee Powder 200g,Groceries,S05,132,35,140,263.64,2026-06-20,FreshFarm Distributors
+P008,Milk 1L,Groceries,S05,55,30,120,50.93,2026-06-27,FreshFarm Distributors
+P009,Bread 400g,Groceries,S05,11,16,64,39.92,2026-06-18,FreshFarm Distributors
+P010,Eggs 12 Pack,Groceries,S05,80,20,80,71.82,2026-06-09,FreshFarm Distributors
+P011,Salt 1kg,Groceries,S05,9,5,20,24.16,2026-06-03,FreshFarm Distributors
+P012,Biscuits Pack,Groceries,S05,41,15,60,32.29,2026-06-25,FreshFarm Distributors
+P013,Instant Noodles 4 Pack,Groceries,S05,32,10,40,46.79,2026-06-24,FreshFarm Distributors
+P014,Paneer 200g,Groceries,S05,17,8,32,73.6,2026-06-12,FreshFarm Distributors
+P015,Ghee 500ml,Groceries,S05,16,5,20,273.81,2026-06-26,FreshFarm Distributors
+P016,Smartphone,Electronics,S05,11,5,20,14101.03,2026-06-12,TechWorld Supplies
+P017,Bluetooth Earbuds,Electronics,S05,4,5,20,1650.62,2026-06-22,TechWorld Supplies
+P018,Power Bank 10000mAh,Electronics,S05,13,5,20,1180.99,2026-06-28,TechWorld Supplies
+P019,LED TV 32 inch,Electronics,S05,17,5,20,10909.46,2026-06-20,TechWorld Supplies
+P020,Laptop,Electronics,S05,13,5,20,43067.89,2026-06-20,TechWorld Supplies
+P021,USB-C Charger,Electronics,S05,0,5,20,632.11,2026-06-09,TechWorld Supplies
+P022,Smartwatch,Electronics,S05,11,5,20,2578.33,2026-06-19,TechWorld Supplies
+P023,Wireless Mouse,Electronics,S05,1,5,20,452.23,2026-06-11,TechWorld Supplies
+P024,Keyboard,Electronics,S05,8,5,20,690.58,2026-06-19,TechWorld Supplies
+P025,Bluetooth Speaker,Electronics,S05,5,5,20,1968.4,2026-06-07,TechWorld Supplies
+P026,LED Bulb 9W,Electronics,S05,15,10,40,106.43,2026-06-27,TechWorld Supplies
+P027,Extension Board,Electronics,S05,0,11,44,378.3,2026-06-22,TechWorld Supplies
+P028,Electric Kettle,Electronics,S05,17,5,20,1094.15,2026-06-26,TechWorld Supplies
+P029,Mixer Grinder,Electronics,S05,5,5,20,2948.55,2026-06-18,TechWorld Supplies
+P030,Hair Dryer,Electronics,S05,8,5,20,883.47,2026-06-27,TechWorld Supplies
+P031,Cotton T-Shirt,Clothing,S05,18,5,20,274.97,2026-06-06,StyleThread Apparel
+P032,Denim Jeans,Clothing,S05,13,5,20,759.24,2026-06-02,StyleThread Apparel
+P033,Formal Shirt,Clothing,S05,2,5,20,761.17,2026-06-27,StyleThread Apparel
+P034,Kurta,Clothing,S05,15,5,20,625.28,2026-06-07,StyleThread Apparel
+P035,Saree,Clothing,S05,46,40,160,1514.62,2026-06-09,StyleThread Apparel
+P036,Track Pants,Clothing,S05,6,5,20,529.02,2026-06-08,StyleThread Apparel
+P037,Hoodie,Clothing,S05,5,7,28,875.55,2026-06-29,StyleThread Apparel
+P038,Socks 3 Pack,Clothing,S05,26,11,44,150.61,2026-06-12,StyleThread Apparel
+P039,Leggings,Clothing,S05,14,5,20,261.19,2026-06-24,StyleThread Apparel
+P040,Jacket,Clothing,S05,13,5,20,1244.72,2026-06-09,StyleThread Apparel
+P041,Shorts,Clothing,S05,18,8,32,366.93,2026-06-06,StyleThread Apparel
+P042,Kids T-Shirt,Clothing,S05,5,5,20,186.18,2026-06-15,StyleThread Apparel
+P043,Dupatta,Clothing,S05,11,9,36,251.42,2026-06-26,StyleThread Apparel
+P044,Polo T-Shirt,Clothing,S05,10,5,20,445.63,2026-06-19,StyleThread Apparel
+P045,Night Suit,Clothing,S05,18,5,20,479.66,2026-06-30,StyleThread Apparel
+P046,Detergent Powder 1kg,Household,S05,8,5,20,149.44,2026-06-16,HomeEssentials Traders
+P047,Dishwash Liquid 500ml,Household,S05,47,31,124,81.61,2026-06-08,HomeEssentials Traders
+P048,Floor Cleaner 1L,Household,S05,0,5,20,136.22,2026-06-22,HomeEssentials Traders
+P049,Toilet Cleaner 500ml,Household,S05,1,9,36,66.27,2026-06-13,HomeEssentials Traders
+P050,Bath Soap 4 Pack,Household,S05,3,5,20,124.65,2026-06-16,HomeEssentials Traders
+P051,Shampoo 340ml,Household,S05,16,5,20,215.6,2026-06-13,HomeEssentials Traders
+P052,Toothpaste 150g,Household,S05,7,5,20,87.88,2026-06-27,HomeEssentials Traders
+P053,Mop Set,Household,S05,15,6,24,476.69,2026-06-18,HomeEssentials Traders
+P054,Bucket 20L,Household,S05,23,9,36,174.37,2026-06-07,HomeEssentials Traders
+P055,Storage Container Set,Household,S05,23,23,92,415.84,2026-06-13,HomeEssentials Traders
+P056,Bedsheet,Household,S05,165,50,200,613.92,2026-06-16,HomeEssentials Traders
+P057,Towel,Household,S05,20,5,20,255.18,2026-06-24,HomeEssentials Traders
+P058,Pressure Cooker 3L,Household,S05,17,5,20,1142.79,2026-06-02,HomeEssentials Traders
+P059,Non-stick Pan,Household,S05,20,5,20,700.35,2026-06-25,HomeEssentials Traders
+P060,Garbage Bags,Household,S05,14,5,20,93.94,2026-06-06,HomeEssentials Traders
