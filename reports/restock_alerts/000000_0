@@ -1,0 +1,74 @@
+S01,P010,Eggs 12 Pack,Groceries,4,40,160,CRITICAL,156,11203.92,FreshFarm Distributors
+S01,P038,Socks 3 Pack,Clothing,5,19,76,CRITICAL,71,10693.31,StyleThread Apparel
+S01,P041,Shorts,Clothing,7,15,60,CRITICAL,53,19447.29,StyleThread Apparel
+S01,P044,Polo T-Shirt,Clothing,1,5,20,CRITICAL,19,8466.97,StyleThread Apparel
+S01,P054,Bucket 20L,Household,1,16,64,CRITICAL,63,10985.31,HomeEssentials Traders
+S01,P056,Bedsheet,Household,31,73,292,CRITICAL,261,160233.12,HomeEssentials Traders
+S01,P001,Basmati Rice 5kg,Groceries,3,5,20,LOW,17,9089.73,FreshFarm Distributors
+S01,P004,Wheat Atta 5kg,Groceries,100,138,552,LOW,452,108832.56,FreshFarm Distributors
+S01,P007,Coffee Powder 200g,Groceries,36,58,232,LOW,196,51673.44,FreshFarm Distributors
+S01,P009,Bread 400g,Groceries,19,25,100,LOW,81,3233.52,FreshFarm Distributors
+S01,P022,Smartwatch,Electronics,4,5,20,LOW,16,41253.28,TechWorld Supplies
+S01,P030,Hair Dryer,Electronics,4,7,28,LOW,24,21203.28,TechWorld Supplies
+S01,P047,Dishwash Liquid 500ml,Household,51,55,220,LOW,169,13792.09,HomeEssentials Traders
+S01,P042,Kids T-Shirt,Clothing,0,5,20,OUT_OF_STOCK,20,3723.60,StyleThread Apparel
+S01,P055,Storage Container Set,Household,0,38,152,OUT_OF_STOCK,152,63207.68,HomeEssentials Traders
+S02,P003,Sunflower Oil 1L,Groceries,26,139,556,CRITICAL,530,77671.50,FreshFarm Distributors
+S02,P025,Bluetooth Speaker,Electronics,1,6,24,CRITICAL,23,45273.20,TechWorld Supplies
+S02,P038,Socks 3 Pack,Clothing,5,18,72,CRITICAL,67,10090.87,StyleThread Apparel
+S02,P041,Shorts,Clothing,3,13,52,CRITICAL,49,17979.57,StyleThread Apparel
+S02,P042,Kids T-Shirt,Clothing,2,5,20,CRITICAL,18,3351.24,StyleThread Apparel
+S02,P045,Night Suit,Clothing,1,5,20,CRITICAL,19,9113.54,StyleThread Apparel
+S02,P046,Detergent Powder 1kg,Household,1,5,20,CRITICAL,19,2839.36,HomeEssentials Traders
+S02,P007,Coffee Powder 200g,Groceries,29,56,224,LOW,195,51409.80,FreshFarm Distributors
+S02,P009,Bread 400g,Groceries,16,22,88,LOW,72,2874.24,FreshFarm Distributors
+S02,P014,Paneer 200g,Groceries,10,12,48,LOW,38,2796.80,FreshFarm Distributors
+S02,P016,Smartphone,Electronics,3,5,20,LOW,17,239717.51,TechWorld Supplies
+S02,P018,Power Bank 10000mAh,Electronics,4,5,20,LOW,16,18895.84,TechWorld Supplies
+S02,P027,Extension Board,Electronics,14,16,64,LOW,50,18915.00,TechWorld Supplies
+S02,P037,Hoodie,Clothing,5,9,36,LOW,31,27142.05,StyleThread Apparel
+S02,P051,Shampoo 340ml,Household,3,5,20,LOW,17,3665.20,HomeEssentials Traders
+S02,P055,Storage Container Set,Household,22,34,136,LOW,114,47405.76,HomeEssentials Traders
+S02,P033,Formal Shirt,Clothing,0,5,20,OUT_OF_STOCK,20,15223.40,StyleThread Apparel
+S02,P044,Polo T-Shirt,Clothing,0,5,20,OUT_OF_STOCK,20,8912.60,StyleThread Apparel
+S03,P011,Salt 1kg,Groceries,1,5,20,CRITICAL,19,459.04,FreshFarm Distributors
+S03,P012,Biscuits Pack,Groceries,5,21,84,CRITICAL,79,2550.91,FreshFarm Distributors
+S03,P029,Mixer Grinder,Electronics,1,6,24,CRITICAL,23,67816.65,TechWorld Supplies
+S03,P033,Formal Shirt,Clothing,2,5,20,CRITICAL,18,13701.06,StyleThread Apparel
+S03,P037,Hoodie,Clothing,2,10,40,CRITICAL,38,33270.90,StyleThread Apparel
+S03,P006,Tea Powder 500g,Groceries,12,19,76,LOW,64,13352.32,FreshFarm Distributors
+S03,P007,Coffee Powder 200g,Groceries,42,49,196,LOW,154,40600.56,FreshFarm Distributors
+S03,P010,Eggs 12 Pack,Groceries,23,30,120,LOW,97,6966.54,FreshFarm Distributors
+S03,P021,USB-C Charger,Electronics,3,5,20,LOW,17,10745.87,TechWorld Supplies
+S03,P028,Electric Kettle,Electronics,4,5,20,LOW,16,17506.40,TechWorld Supplies
+S03,P032,Denim Jeans,Clothing,3,5,20,LOW,17,12907.08,StyleThread Apparel
+S03,P034,Kurta,Clothing,5,6,24,LOW,19,11880.32,StyleThread Apparel
+S03,P045,Night Suit,Clothing,4,5,20,LOW,16,7674.56,StyleThread Apparel
+S03,P049,Toilet Cleaner 500ml,Household,7,14,56,LOW,49,3247.23,HomeEssentials Traders
+S04,P005,Sugar 1kg,Groceries,2,16,64,CRITICAL,62,2650.50,FreshFarm Distributors
+S04,P020,Laptop,Electronics,1,5,20,CRITICAL,19,818289.91,TechWorld Supplies
+S04,P046,Detergent Powder 1kg,Household,2,5,20,CRITICAL,18,2689.92,HomeEssentials Traders
+S04,P050,Bath Soap 4 Pack,Household,2,5,20,CRITICAL,18,2243.70,HomeEssentials Traders
+S04,P018,Power Bank 10000mAh,Electronics,3,5,20,LOW,17,20076.83,TechWorld Supplies
+S04,P029,Mixer Grinder,Electronics,4,6,24,LOW,20,58971.00,TechWorld Supplies
+S04,P032,Denim Jeans,Clothing,4,5,20,LOW,16,12147.84,StyleThread Apparel
+S04,P037,Hoodie,Clothing,6,10,40,LOW,34,29768.70,StyleThread Apparel
+S04,P043,Dupatta,Clothing,8,12,48,LOW,40,10056.80,StyleThread Apparel
+S04,P048,Floor Cleaner 1L,Household,3,5,20,LOW,17,2315.74,HomeEssentials Traders
+S04,P049,Toilet Cleaner 500ml,Household,11,12,48,LOW,37,2451.99,HomeEssentials Traders
+S04,P052,Toothpaste 150g,Household,4,5,20,LOW,16,1406.08,HomeEssentials Traders
+S04,P053,Mop Set,Household,7,8,32,LOW,25,11917.25,HomeEssentials Traders
+S04,P057,Towel,Household,3,5,20,LOW,17,4338.06,HomeEssentials Traders
+S04,P059,Non-stick Pan,Household,4,7,28,LOW,24,16808.40,HomeEssentials Traders
+S04,P031,Cotton T-Shirt,Clothing,0,6,24,OUT_OF_STOCK,24,6599.28,StyleThread Apparel
+S05,P023,Wireless Mouse,Electronics,1,5,20,CRITICAL,19,8592.37,TechWorld Supplies
+S05,P033,Formal Shirt,Clothing,2,5,20,CRITICAL,18,13701.06,StyleThread Apparel
+S05,P049,Toilet Cleaner 500ml,Household,1,9,36,CRITICAL,35,2319.45,HomeEssentials Traders
+S05,P002,Toor Dal 1kg,Groceries,3,5,20,LOW,17,2328.66,FreshFarm Distributors
+S05,P009,Bread 400g,Groceries,11,16,64,LOW,53,2115.76,FreshFarm Distributors
+S05,P017,Bluetooth Earbuds,Electronics,4,5,20,LOW,16,26409.92,TechWorld Supplies
+S05,P037,Hoodie,Clothing,5,7,28,LOW,23,20137.65,StyleThread Apparel
+S05,P050,Bath Soap 4 Pack,Household,3,5,20,LOW,17,2119.05,HomeEssentials Traders
+S05,P021,USB-C Charger,Electronics,0,5,20,OUT_OF_STOCK,20,12642.20,TechWorld Supplies
+S05,P027,Extension Board,Electronics,0,11,44,OUT_OF_STOCK,44,16645.20,TechWorld Supplies
+S05,P048,Floor Cleaner 1L,Household,0,5,20,OUT_OF_STOCK,20,2724.40,HomeEssentials Traders

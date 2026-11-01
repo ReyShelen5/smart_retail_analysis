@@ -1,0 +1,110 @@
++-----------------+
+| inventory_rows  |
++-----------------+
+| 301             |
++-----------------+
++-----------------------+-------------------------+---------------------+---------------------+--------------------------+--------------------------+----------------------+----------------------+------------------------------+-------------------------+
+| inventory.product_id  | inventory.product_name  | inventory.category  | inventory.store_id  | inventory.current_stock  | inventory.reorder_level  | inventory.max_stock  | inventory.unit_cost  | inventory.last_restock_date  |   inventory.supplier    |
++-----------------------+-------------------------+---------------------+---------------------+--------------------------+--------------------------+----------------------+----------------------+------------------------------+-------------------------+
+| product_id            | product_name            | category            | store_id            | NULL                     | NULL                     | NULL                 | NULL                 | NULL                         | supplier                |
+| P001                  | Basmati Rice 5kg        | Groceries           | S01                 | 3                        | 5                        | 20                   | 534.69               | 2026-06-24                   | FreshFarm Distributors  |
+| P002                  | Toor Dal 1kg            | Groceries           | S01                 | 14                       | 5                        | 20                   | 136.98               | 2026-06-29                   | FreshFarm Distributors  |
+| P003                  | Sunflower Oil 1L        | Groceries           | S01                 | 220                      | 154                      | 616                  | 146.55               | 2026-06-18                   | FreshFarm Distributors  |
+| P004                  | Wheat Atta 5kg          | Groceries           | S01                 | 100                      | 138                      | 552                  | 240.78               | 2026-06-14                   | FreshFarm Distributors  |
++-----------------------+-------------------------+---------------------+---------------------+--------------------------+--------------------------+----------------------+----------------------+------------------------------+-------------------------+
++-----------+-------------+------------------------+--------------+----------------+----------------+---------------+----------------------+-----------------------+
+| store_id  | product_id  |      product_name      |   category   | current_stock  | reorder_level  | stock_status  | suggested_order_qty  | estimated_order_cost  |
++-----------+-------------+------------------------+--------------+----------------+----------------+---------------+----------------------+-----------------------+
+| S01       | P055        | Storage Container Set  | Household    | 0              | 38             | OUT_OF_STOCK  | 152                  | 63207.68              |
+| S05       | P027        | Extension Board        | Electronics  | 0              | 11             | OUT_OF_STOCK  | 44                   | 16645.20              |
+| S02       | P033        | Formal Shirt           | Clothing     | 0              | 5              | OUT_OF_STOCK  | 20                   | 15223.40              |
+| S05       | P021        | USB-C Charger          | Electronics  | 0              | 5              | OUT_OF_STOCK  | 20                   | 12642.20              |
+| S02       | P044        | Polo T-Shirt           | Clothing     | 0              | 5              | OUT_OF_STOCK  | 20                   | 8912.60               |
+| S04       | P031        | Cotton T-Shirt         | Clothing     | 0              | 6              | OUT_OF_STOCK  | 24                   | 6599.28               |
+| S01       | P042        | Kids T-Shirt           | Clothing     | 0              | 5              | OUT_OF_STOCK  | 20                   | 3723.60               |
+| S05       | P048        | Floor Cleaner 1L       | Household    | 0              | 5              | OUT_OF_STOCK  | 20                   | 2724.40               |
+| S04       | P020        | Laptop                 | Electronics  | 1              | 5              | CRITICAL      | 19                   | 818289.91             |
+| S01       | P056        | Bedsheet               | Household    | 31             | 73             | CRITICAL      | 261                  | 160233.12             |
+| S02       | P003        | Sunflower Oil 1L       | Groceries    | 26             | 139            | CRITICAL      | 530                  | 77671.50              |
+| S03       | P029        | Mixer Grinder          | Electronics  | 1              | 6              | CRITICAL      | 23                   | 67816.65              |
+| S02       | P025        | Bluetooth Speaker      | Electronics  | 1              | 6              | CRITICAL      | 23                   | 45273.20              |
+| S03       | P037        | Hoodie                 | Clothing     | 2              | 10             | CRITICAL      | 38                   | 33270.90              |
+| S01       | P041        | Shorts                 | Clothing     | 7              | 15             | CRITICAL      | 53                   | 19447.29              |
+| S02       | P041        | Shorts                 | Clothing     | 3              | 13             | CRITICAL      | 49                   | 17979.57              |
+| S03       | P033        | Formal Shirt           | Clothing     | 2              | 5              | CRITICAL      | 18                   | 13701.06              |
+| S05       | P033        | Formal Shirt           | Clothing     | 2              | 5              | CRITICAL      | 18                   | 13701.06              |
+| S01       | P010        | Eggs 12 Pack           | Groceries    | 4              | 40             | CRITICAL      | 156                  | 11203.92              |
+| S01       | P054        | Bucket 20L             | Household    | 1              | 16             | CRITICAL      | 63                   | 10985.31              |
++-----------+-------------+------------------------+--------------+----------------+----------------+---------------+----------------------+-----------------------+
++-----------+-------------------+---------------+-----------+---------------------+
+| store_id  | items_to_restock  | out_of_stock  | critical  | total_restock_cost  |
++-----------+-------------------+---------------+-----------+---------------------+
+| S02       | 18                | 2             | 7         | 603277.48           |
+| S04       | 16                | 1             | 4         | 1002732.00          |
+| S01       | 15                | 2             | 6         | 537039.10           |
+| S03       | 14                | 0             | 5         | 242679.44           |
+| S05       | 11                | 3             | 3         | 109735.72           |
++-----------+-------------------+---------------+-----------+---------------------+
++-------------------------+-------------+--------------+-------------+
+|        supplier         | line_items  | total_units  |  po_value   |
++-------------------------+-------------+--------------+-------------+
+| TechWorld Supplies      | 16          | 357          | 1442954.46  |
+| FreshFarm Distributors  | 17          | 2282         | 389809.80   |
+| HomeEssentials Traders  | 19          | 1088         | 356709.79   |
+| StyleThread Apparel     | 22          | 650          | 305989.69   |
++-------------------------+-------------+--------------+-------------+
+2026-11-01T05:39:42.061444373Z main WARN The use of package scanning to locate Log4j plugins is deprecated.
+Please remove the `packages` attribute from your configuration file.
+See https://logging.apache.org/log4j/2.x/faq.html#package-scanning for details.
+2026-11-01T05:39:42.183101843Z main INFO AsyncLoggerContext[name=AsyncContext@5ffd2b27] started with configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@15051a0.
++-----------+-------------+------------------------+--------------+----------------+------------------+---------------------+
+| store_id  | product_id  |      product_name      |   category   | current_stock  | avg_daily_units  | days_of_stock_left  |
++-----------+-------------+------------------------+--------------+----------------+------------------+---------------------+
+| S01       | P055        | Storage Container Set  | Household    | 0              | 5.17             | 0.0                 |
+| S05       | P027        | Extension Board        | Electronics  | 0              | 1.67             | 0.0                 |
+| S05       | P021        | USB-C Charger          | Electronics  | 0              | 0.60             | 0.0                 |
+| S02       | P044        | Polo T-Shirt           | Clothing     | 0              | 0.50             | 0.0                 |
+| S04       | P031        | Cotton T-Shirt         | Clothing     | 0              | 0.40             | 0.0                 |
+| S05       | P048        | Floor Cleaner 1L       | Household    | 0              | 0.33             | 0.0                 |
+| S02       | P033        | Formal Shirt           | Clothing     | 0              | 0.13             | 0.0                 |
+| S01       | P054        | Bucket 20L             | Household    | 1              | 2.73             | 0.4                 |
+| S01       | P010        | Eggs 12 Pack           | Groceries    | 4              | 5.73             | 0.7                 |
+| S05       | P049        | Toilet Cleaner 500ml   | Household    | 1              | 1.10             | 0.9                 |
+| S02       | P025        | Bluetooth Speaker      | Electronics  | 1              | 1.03             | 1.0                 |
+| S03       | P029        | Mixer Grinder          | Electronics  | 1              | 0.90             | 1.1                 |
+| S02       | P003        | Sunflower Oil 1L       | Groceries    | 26             | 21.63            | 1.2                 |
+| S03       | P012        | Biscuits Pack          | Groceries    | 5              | 3.63             | 1.4                 |
+| S02       | P038        | Socks 3 Pack           | Clothing     | 5              | 3.50             | 1.4                 |
++-----------+-------------+------------------------+--------------+----------------+------------------+---------------------+
++-----------+-------------+-----------------+--------------+----------------+------------------+---------------------+--------------+
+| store_id  | product_id  |  product_name   |   category   | current_stock  | avg_daily_units  | days_of_stock_left  | stock_value  |
++-----------+-------------+-----------------+--------------+----------------+------------------+---------------------+--------------+
+| store_id  | product_id  | product_name    | category     | NULL           | 0.00             | NULL                | NULL         |
+| S01       | P020        | Laptop          | Electronics  | 19             | 0.07             | 285.0               | 818289.91    |
+| S05       | P020        | Laptop          | Electronics  | 13             | 0.17             | 78.0                | 559882.57    |
+| S02       | P020        | Laptop          | Electronics  | 13             | 0.17             | 78.0                | 559882.57    |
+| S03       | P016        | Smartphone      | Electronics  | 20             | 0.07             | 300.0               | 282020.60    |
+| S01       | P016        | Smartphone      | Electronics  | 19             | 0.10             | 190.0               | 267919.57    |
+| S05       | P019        | LED TV 32 inch  | Electronics  | 17             | 0.03             | 510.0               | 185460.82    |
+| S02       | P019        | LED TV 32 inch  | Electronics  | 15             | 0.03             | 450.0               | 163641.90    |
+| S05       | P016        | Smartphone      | Electronics  | 11             | 0.00             | NULL                | 155111.33    |
+| S03       | P019        | LED TV 32 inch  | Electronics  | 14             | 0.00             | NULL                | 152732.44    |
+| S04       | P016        | Smartphone      | Electronics  | 8              | 0.00             | NULL                | 112808.24    |
+| S04       | P019        | LED TV 32 inch  | Electronics  | 9              | 0.03             | 270.0               | 98185.14     |
+| S01       | P019        | LED TV 32 inch  | Electronics  | 6              | 0.00             | NULL                | 65456.76     |
+| S02       | P022        | Smartwatch      | Electronics  | 19             | 0.30             | 63.3                | 48988.27     |
+| S02       | P016        | Smartphone      | Electronics  | 3              | 0.00             | NULL                | 42303.09     |
++-----------+-------------+-----------------+--------------+----------------+------------------+---------------------+--------------+
+2026-11-01T05:39:57.520897198Z main WARN The use of package scanning to locate Log4j plugins is deprecated.
+Please remove the `packages` attribute from your configuration file.
+See https://logging.apache.org/log4j/2.x/faq.html#package-scanning for details.
+2026-11-01T05:39:57.651632712Z main INFO Starting configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@15051a0...
+2026-11-01T05:39:57.653890775Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@6831d8fd...
++--------------+--------------------+----------------+-------------------------+------------------+
+|  c.category  | c.inventory_value  | r.revenue_30d  | revenue_to_stock_ratio  | c.items_at_risk  |
++--------------+--------------------+----------------+-------------------------+------------------+
+| Clothing     | 1408015.64         | 4098560.45     | 2.91                    | 15               |
+| Household    | 812570.02          | 2100940.95     | 2.59                    | 10               |
+| Groceries    | 802135.42          | 1907454.60     | 2.38                    | 16               |
+| Electronics  | 4615636.38         | 2802279.40     | 0.61                    | 10               |
++--------------+--------------------+----------------+-------------------------+------------------+
