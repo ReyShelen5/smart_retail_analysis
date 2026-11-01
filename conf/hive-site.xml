@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<configuration>
+  <!-- Embedded Derby metastore, stored in the project folder -->
+  <property><name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:derby:;databaseName=metastore_db;create=true</value></property>
+  <property><name>javax.jdo.option.ConnectionDriverName</name>
+    <value>org.apache.derby.jdbc.EmbeddedDriver</value></property>
+  <property><name>hive.metastore.uris</name><value></value></property>
+
+  <!-- Local-filesystem warehouse and scratch dirs -->
+  <property><name>fs.defaultFS</name><value>file:///</value></property>
+  <property><name>hive.metastore.warehouse.dir</name>
+    <value>file://${user.dir}/warehouse</value></property>
+  <property><name>hive.metastore.warehouse.external.dir</name>
+    <value>file://${user.dir}/warehouse/external</value></property>
+  <property><name>hive.exec.scratchdir</name><value>${user.dir}/tmp/hive</value></property>
+  <property><name>hive.exec.local.scratchdir</name><value>${user.dir}/tmp/local</value></property>
+  <property><name>hive.downloaded.resources.dir</name><value>${user.dir}/tmp/resources</value></property>
+  <property><name>hive.querylog.location</name><value>${user.dir}/tmp/querylog</value></property>
+
+  <!-- Execution: MapReduce in local mode -->
+  <property><name>hive.execution.engine</name><value>mr</value></property>
+  <property><name>mapreduce.framework.name</name><value>local</value></property>
+  <property><name>hive.exec.mode.local.auto</name><value>true</value></property>
+
+  <!-- Plain (non-ACID) managed tables -->
+  <property><name>hive.support.concurrency</name><value>false</value></property>
+  <property><name>hive.create.as.acid</name><value>false</value></property>
+  <property><name>hive.create.as.insert.only</name><value>false</value></property>
+  <property><name>hive.strict.managed.tables</name><value>false</value></property>
+
+  <!-- Embedded HiveServer2 for beeline -->
+  <property><name>hive.server2.enable.doAs</name><value>false</value></property>
+  <property><name>hive.cli.print.header</name><value>true</value></property>
+</configuration>
