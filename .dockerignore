@@ -1,0 +1,10 @@
+.git
+.venv
+data
+warehouse
+metastore_db
+tmp
+reports
+conf
+sql
+*.log
